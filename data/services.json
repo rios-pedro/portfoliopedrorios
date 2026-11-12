@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "APIs REST\ncom Spring Boot",
+    "icon": "ph-thin ph-plugs-connected",
+    "text": "Do modelo de domínio ao endpoint: controllers enxutos, regras na camada de serviço, DTOs, validação com Bean Validation e erros tratados num só lugar.",
+    "img": "/img/pedro/svc-api.png"
+  },
+  {
+    "id": 2,
+    "title": "Modelagem\ne dados",
+    "icon": "ph-thin ph-database",
+    "text": "JPA/Hibernate com relacionamentos reais, PostgreSQL no relacional e MongoDB quando o dado pede documento.",
+    "img": "/img/pedro/svc-data.png"
+  },
+  {
+    "id": 3,
+    "title": "Docker e\nSwagger",
+    "icon": "ph-thin ph-package",
+    "text": "Aplicações containerizadas com Docker e contratos de API documentados com Swagger/OpenAPI, prontos pra outro dev consumir.",
+    "img": "/img/pedro/svc-ops.png"
+  },
+  {
+    "id": 4,
+    "title": "Front e\ndesktop",
+    "icon": "ph-thin ph-app-window",
+    "text": "React com TypeScript na web e Tauri + Rust pra apps desktop leves. Entendo o lado de quem consome a minha API.",
+    "img": "/img/pedro/svc-front.png"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "src": "/img/pedro/proj-pomi.png",
+    "width": 1100,
+    "height": 1400,
+    "title": "Pomi",
+    "category": "Tauri 2 · Rust · React · TypeScript",
+    "description": "Timer Pomodoro nativo da barra de menu do macOS. Contagem regressiva na bandeja, notificações nativas e binário leve. Publicado com site e download.",
+    "href": "https://github.com/rios-pedro/pomi-app"
+  },
+  {
+    "id": 2,
+    "src": "/img/pedro/proj-paytool.png",
+    "width": 1400,
+    "height": 1050,
+    "title": "paytool",
+    "category": "Java 17 · Spring Boot · JPA/Hibernate",
+    "description": "Backend de e-commerce com 6 entidades de domínio, ciclo de vida de pedidos, arquitetura em camadas e tratamento de exceções customizado.",
+    "href": "https://github.com/rios-pedro/paytool",
+    "opposite": true
+  },
+  {
+    "id": 3,
+    "src": "/img/pedro/proj-contact.png",
+    "width": 1400,
+    "height": 1050,
+    "title": "Contact API",
+    "category": "Spring Boot · PostgreSQL · Swagger",
+    "description": "CRUD com soft delete, DTOs, Bean Validation, tratamento global de erros com @ControllerAdvice e documentação via SpringDoc OpenAPI.",
+    "href": "https://github.com/rios-pedro/contact"
+  },
+  {
+    "id": 4,
+    "src": "/img/pedro/proj-social.png",
+    "width": 1100,
+    "height": 1400,
+    "title": "Social API",
+    "category": "Spring Boot · MongoDB",
+    "description": "API de rede social orientada a documentos: usuários, posts e comentários, com busca por texto e por intervalo de datas.",
+    "href": "https://github.com/rios-pedro/socialApiNoSql",
+    "opposite": true
+  }
+]

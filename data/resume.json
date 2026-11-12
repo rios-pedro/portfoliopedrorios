@@ -1,0 +1,58 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "date": "2026 — em curso",
+      "title": "Letras — Inglês",
+      "source": "Universidade Católica de Brasília",
+      "description": "Inglês formal para ler, escrever e trabalhar em times internacionais."
+    },
+    {
+      "id": 2,
+      "date": "2023 — 2025",
+      "title": "Análise e Desenvolvimento de Sistemas",
+      "source": "Universidade Católica de Brasília",
+      "description": "Tecnólogo. Programação, banco de dados, engenharia de software e projetos práticos em equipe."
+    },
+    {
+      "id": 3,
+      "date": "2020 — 2022",
+      "title": "Técnico em Informática",
+      "source": "Senac DF",
+      "description": "Base em programação (Java, Python), SQL, redes e manutenção de hardware."
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "date": "2026 — hoje",
+      "title": "Desenvolvedor Backend Java",
+      "source": "Projetos open source",
+      "description": "4 APIs REST com Spring Boot (JPA, PostgreSQL, MongoDB, Docker, Swagger) e o app macOS Pomi em Tauri + Rust."
+    },
+    {
+      "id": 2,
+      "date": "2025",
+      "title": "Técnico de computador",
+      "source": "Prioriza Soluções Digitais",
+      "description": "Fluxo de triagem pra diagnóstico, redes locais e base de conhecimento interna dos chamados."
+    },
+    {
+      "id": 3,
+      "date": "2023 — 2025",
+      "title": "Técnico em manutenção",
+      "source": "Drogamaster",
+      "description": "30+ estações e sistemas de PDV em farmácia de alto volume. Incidentes críticos resolvidos dentro do SLA."
+    }
+  ],
+  "tools": [
+    { "id": 1, "icon": "ph-thin ph-coffee", "name": "Java 17" },
+    { "id": 2, "icon": "ph-thin ph-leaf", "name": "Spring Boot" },
+    { "id": 3, "icon": "ph-thin ph-database", "name": "PostgreSQL" },
+    { "id": 4, "icon": "ph-thin ph-tree-structure", "name": "MongoDB" },
+    { "id": 5, "icon": "ph-thin ph-package", "name": "Docker" },
+    { "id": 6, "icon": "ph-thin ph-file-code", "name": "Swagger" },
+    { "id": 7, "icon": "ph-thin ph-atom", "name": "React + TS" },
+    { "id": 8, "icon": "ph-thin ph-git-branch", "name": "Git" }
+  ]
+}
