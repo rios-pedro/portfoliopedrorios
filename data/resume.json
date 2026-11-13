@@ -45,14 +45,63 @@
       "description": "30+ estações e sistemas de PDV em farmácia de alto volume. Incidentes críticos resolvidos dentro do SLA."
     }
   ],
+  "certifications": [
+    {
+      "id": 1,
+      "date": "nov 2026",
+      "title": "AI Fluency: Framework and Foundations",
+      "source": "Anthropic · Claude Academy",
+      "description": "Framework dos 4Ds para trabalhar com IA: delegação, descrição, discernimento e diligência.",
+      "href": "https://academy.claude.com/verify/5fcbf06495644bdbee1f87213419e6cc"
+    },
+    {
+      "id": 2,
+      "date": "abr 2026",
+      "title": "Java Completo: POO + Projetos",
+      "source": "Udemy",
+      "description": "Orientação a objetos em Java, JDBC e JPA, com projetos práticos."
+    }
+  ],
   "tools": [
-    { "id": 1, "icon": "ph-thin ph-coffee", "name": "Java 17" },
-    { "id": 2, "icon": "ph-thin ph-leaf", "name": "Spring Boot" },
-    { "id": 3, "icon": "ph-thin ph-database", "name": "PostgreSQL" },
-    { "id": 4, "icon": "ph-thin ph-tree-structure", "name": "MongoDB" },
-    { "id": 5, "icon": "ph-thin ph-package", "name": "Docker" },
-    { "id": 6, "icon": "ph-thin ph-file-code", "name": "Swagger" },
-    { "id": 7, "icon": "ph-thin ph-atom", "name": "React + TS" },
-    { "id": 8, "icon": "ph-thin ph-git-branch", "name": "Git" }
+    {
+      "id": 1,
+      "icon": "ph-thin ph-coffee",
+      "name": "Java 17"
+    },
+    {
+      "id": 2,
+      "icon": "ph-thin ph-leaf",
+      "name": "Spring Boot"
+    },
+    {
+      "id": 3,
+      "icon": "ph-thin ph-database",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": 4,
+      "icon": "ph-thin ph-tree-structure",
+      "name": "MongoDB"
+    },
+    {
+      "id": 5,
+      "icon": "ph-thin ph-package",
+      "name": "Docker"
+    },
+    {
+      "id": 6,
+      "icon": "ph-thin ph-file-code",
+      "name": "Swagger"
+    },
+    {
+      "id": 7,
+      "icon": "ph-thin ph-atom",
+      "name": "React + TS"
+    },
+    {
+      "id": 8,
+      "icon": "ph-thin ph-git-branch",
+      "name": "Git"
+    }
   ]
 }

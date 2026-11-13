@@ -5,7 +5,7 @@ import React from "react";
 import Socials from "./Socials";
 import Star from "./Star";
 
-type Line = { id: number; date: string; title: string; source: string; description: string };
+type Line = { id: number; date: string; title: string; source: string; description: string; href?: string };
 
 function Lines({ items }: { items: Line[] }) {
   return (
@@ -19,7 +19,17 @@ function Lines({ items }: { items: Line[] }) {
             </div>
             <div className="col-12 col-md-4 col-lg-4">
               <h4 className="resume-lines__title animate-in-up">{e.title}</h4>
-              <p className="resume-lines__source small animate-in-up">{e.source}</p>
+              <p className="resume-lines__source small animate-in-up">
+                {e.source}
+                {e.href && (
+                  <>
+                    {" · "}
+                    <a className="link-small-underline" href={e.href} target="_blank" rel="noreferrer">
+                      Verificar credencial
+                    </a>
+                  </>
+                )}
+              </p>
             </div>
             <div className="col-12 col-md-4 col-lg-5">
               <p className="resume-lines__descr type-basic-160lh animate-in-up">{e.description}</p>
@@ -69,6 +79,12 @@ export default function Resume() {
                     <p className="tagline-chapter animate-in-up">Formação</p>
                   </div>
                   <Lines items={resume.education} />
+                </div>
+                <div className="content__block pre-text-items">
+                  <div className="block__subtitle">
+                    <p className="tagline-chapter animate-in-up">Certificações</p>
+                  </div>
+                  <Lines items={resume.certifications} />
                 </div>
                 <div className="content__block grid-block">
                   <div className="block__subtitle grid-block-subtitle">
